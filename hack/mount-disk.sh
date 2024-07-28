@@ -6,7 +6,7 @@
 # in production, there should be two volumes, one
 # for the accounts and the other for the ledger
 
-sudo mkfs.ext4 -m 0 -E lazy_itable_init=0,lazy_journal_init=0,discard /dev/sdb
+sudo mkfs.ext4 -m 0 -E lazy_itable_init=0,lazy_journal_init=0,discard /dev/vdb
 
 sudo mkdir -p /mnt/disks/solana
 
