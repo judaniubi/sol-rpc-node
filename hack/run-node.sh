@@ -10,8 +10,8 @@ solana-validator \
   --known-validator GdnSyH3YtwcxFvQrVVJMm1JhTS4QVX7MFsX56uJLUfiZ \
   --known-validator DE1bawNcRJB9rVm3buyMVfr8mBEoyyu73NBovf2oXJsJ \
   --known-validator CakcnaRDHka2gXyfbEd2d3xsvkJkqsLw2akB3zsN1D2S \
-  --accounts /mnt/disks/solana/solana-accounts \
-  --ledger /mnt/disks/solana/solana-ledger \
+  --ledger /mnt/ledger \
+  --accounts /mnt/accounts \
   --rpc-port 8899 \
   --gossip-port 8001 \
   --entrypoint entrypoint.mainnet-beta.solana.com:8001 \
