@@ -16,7 +16,7 @@ solana-validator \
   --gossip-port 8001 \
   --rpc-bind-address 0.0.0.0 \
   --private-rpc \
-  --dynamic-port-range 8000-8020 \  
+  --dynamic-port-range 8000-8020 \
   --entrypoint entrypoint.mainnet-beta.solana.com:8001 \
   --entrypoint entrypoint2.mainnet-beta.solana.com:8001 \
   --entrypoint entrypoint3.mainnet-beta.solana.com:8001 \
