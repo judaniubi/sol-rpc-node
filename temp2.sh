@@ -11,7 +11,7 @@ solana-validator \
   --known-validator DE1bawNcRJB9rVm3buyMVfr8mBEoyyu73NBovf2oXJsJ \
   --known-validator CakcnaRDHka2gXyfbEd2d3xsvkJkqsLw2akB3zsN1D2S \
   --accounts /var/solana/accounts \
-  --ledger /var/solana/data/config/validator-keypair.json \
+  --ledger /var/solana/data/ledger \
   --rpc-port 8899 \
   --gossip-port 8001 \
   --rpc-bind-address 0.0.0.0 \
