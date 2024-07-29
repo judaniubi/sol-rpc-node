@@ -1,7 +1,7 @@
 #!/bin/bash
 
 solana-validator \
-  --identity ./validator-keypair.json \
+  --identity /var/solana/data/config/validator-keypair.json \
   --no-voting \
   --only-known-rpc \
   --full-rpc-api \
